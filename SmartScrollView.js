@@ -1,6 +1,5 @@
 import React, {
-  Component,
-  PropTypes,
+  Component
 } from 'react';
 
 import ReactNative, {
@@ -12,7 +11,7 @@ import ReactNative, {
   LayoutAnimation,
   Platform
 } from 'react-native';
-
+import PropTypes from 'prop-types';
 const { height: screenHeight } = Dimensions.get('window');
 const animations               = {
   layout: {
@@ -256,8 +255,8 @@ const styles = StyleSheet.create({
 
 SmartScrollView.propTypes = {
   forceFocusField:              PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  scrollContainerStyle:         View.propTypes.style,
-  contentContainerStyle:        View.propTypes.style,
+  scrollContainerStyle:         PropTypes.style,
+  contentContainerStyle:        PropTypes.style,
   zoomScale:                    PropTypes.number,
   showsVerticalScrollIndicator: PropTypes.bool,
   contentInset:                 PropTypes.object,

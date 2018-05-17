@@ -1,15 +1,66 @@
 {
-  "name": "react-native-smart-scroll-view",
-  "version": "1.3.7",
+  "_args": [
+    [
+      {
+        "raw": "react-native-smart-scroll-view@^1.3.7",
+        "scope": null,
+        "escapedName": "react-native-smart-scroll-view",
+        "name": "react-native-smart-scroll-view",
+        "rawSpec": "^1.3.7",
+        "spec": ">=1.3.7 <2.0.0",
+        "type": "range"
+      },
+      "/Users/dev/Desktop/QuantaWallet"
+    ]
+  ],
+  "_from": "react-native-smart-scroll-view@>=1.3.7 <2.0.0",
+  "_id": "react-native-smart-scroll-view@1.3.7",
+  "_inCache": true,
+  "_location": "/react-native-smart-scroll-view",
+  "_nodeVersion": "4.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-smart-scroll-view-1.3.7.tgz_1478613718104_0.42279188334941864"
+  },
+  "_npmUser": {
+    "name": "jrans",
+    "email": "jwrans@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-smart-scroll-view@^1.3.7",
+    "scope": null,
+    "escapedName": "react-native-smart-scroll-view",
+    "name": "react-native-smart-scroll-view",
+    "rawSpec": "^1.3.7",
+    "spec": ">=1.3.7 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-smart-scroll-view/-/react-native-smart-scroll-view-1.3.7.tgz",
+  "_shasum": "b5a090d16490e0173cb61b0cd359c2faa0f82bcd",
+  "_shrinkwrap": null,
+  "_spec": "react-native-smart-scroll-view@^1.3.7",
+  "_where": "/Users/dev/Desktop/QuantaWallet",
+  "author": {
+    "name": "nikhilaravi, jrans"
+  },
+  "bugs": {
+    "url": "https://github.com/jrans/react-native-smart-scroll-view/issues"
+  },
+  "dependencies": {},
   "description": "Handles keyboard events and auto adjusts content to be visible above keyboard on focus. Further scrolling features available.",
-  "main": "SmartScrollView.js",
-  "scripts": {
-    "test": "LOL TESTS"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b5a090d16490e0173cb61b0cd359c2faa0f82bcd",
+    "tarball": "https://registry.npmjs.org/react-native-smart-scroll-view/-/react-native-smart-scroll-view-1.3.7.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jrans/react-native-smart-scroll-view.git"
-  },
+  "gitHead": "cb97dd8b10a8485b0eca260ccb42b5bf05dc0fa2",
+  "homepage": "https://github.com/jrans/react-native-smart-scroll-view#readme",
   "keywords": [
     "smart",
     "scroll",
@@ -25,10 +76,79 @@
     "scrolling",
     "ios"
   ],
-  "author": "nikhilaravi, jrans",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jrans/react-native-smart-scroll-view/issues"
+  "main": "SmartScrollView.js",
+  "maintainers": [
+    {
+      "name": "jrans",
+      "email": "jwrans@gmail.com"
+    },
+    {
+      "name": "nikhilaravi",
+      "email": "nikkiravi92@gmail.com"
+    }
+  ],
+  "name": "react-native-smart-scroll-view",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrans/react-native-smart-scroll-view.git"
   },
-  "homepage": "https://github.com/jrans/react-native-smart-scroll-view#readme"
+  "scripts": {
+    "test": "LOL TESTS"
+  },
+  "version": "1.3.7",
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "dgram": "react-native-udp",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "dgram": "react-native-udp",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  }
 }
